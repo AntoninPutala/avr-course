@@ -13,9 +13,13 @@ This is __github__ of my _avr course_.
 * Learn working with MCU.
 
 ### Codes
-´void main{
-
-}´
+```python I'm A tab
+import numpy
+a = 10
+b = 5
+c = a + b
+print(c)
+```
 
 ## Tables
 |Position|Name|Value|Number|
