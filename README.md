@@ -21,6 +21,19 @@ c = a + b
 print(c)
 ```
 
+```c Example C
+#define LED_GREEN PB5   // PB5 is AVR pin where green on-board LED 
+                        // is connected
+#define SHORT_DELAY 250 // Delay in milliseconds
+#ifndef F_CPU
+# define F_CPU 16000000 // CPU frequency in Hz required for delay funcs
+#endif
+
+/* Includes ----------------------------------------------------------*/
+#include <avr/io.h>     // AVR device-specific IO definitions
+#include <util/delay.h> // Functions for busy-wait delay loops
+```
+
 ## Tables
 |Position|Name|Value|Number|
 |---|---|---|---|
