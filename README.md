@@ -12,6 +12,11 @@ This is __github__ of my _avr course_.
 * Learn working with Github.
 * Learn working with MCU.
 
+### Codes
+´void main{
+
+}´
+
 ## Appendix
 
 ## Reference
