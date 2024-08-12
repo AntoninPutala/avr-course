@@ -13,7 +13,7 @@ This is __github__ of my _avr course_.
 * Learn working with MCU.
 
 ### Codes
-```python I'm A tab
+```python Example python
 import numpy
 a = 10
 b = 5
